@@ -1,7 +1,7 @@
-x=str(raw_input("enter a character:"))
+x=str(raw_input())
 if(x in('a','e','i','o','u')):
-  print("vowel")
+  print("Vowel")
 elif(x in('b','c','d','f','g','h','j','k','l','m','n','p','q','r','s','t','v','w','x','y','z')):
-  print("consonant")
+  print("Consonant")
 else:
   print("invalid")    
