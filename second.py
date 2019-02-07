@@ -1,5 +1,6 @@
-a = int(raw_input("enter a number"))
-if(a%2)==0:  
-    print("it is even number")   
+a = int(input())
+mod= a % 2 
+if mod > 0:
+    print("Odd")   
 else:
-    print("it is odd number")     
+    print("Even")     
