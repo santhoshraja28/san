@@ -1,3 +1,4 @@
+#san
 a=int(input())
 k=0
 for i in range(2,a//2+1):
